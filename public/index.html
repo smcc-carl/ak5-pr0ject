@@ -10,17 +10,19 @@
 <body>
 
 <main><header class=" flex justify-between items-center container py-4 shadow-sm">
+    <a href="/">
     <div class="flex items-center gap-4">
     <img src="https://static.wixstatic.com/media/be0975_48eeb4e6d34a4a62845d6f44c0715540~mv2.png/v1/fill/w_100,h_100,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/logo%203-04.png" alt="logo" class="w-16">
     <p class="text-lg font-semibold">AK5 INTERIOR DESIGN CO.</p>
     </div>
+  </a>
     <nav >
       <ul class="flex gap-6 text-lg font-semibold uppercase">
         <li><a href="/">Home</a></li>
         <li><a href="/#projects">Services</a></li>
         <li><a href="/#testimonials">Testimonials</a></li>
         <li><a href="/#blog">Blogs</a></li>
-        <li><a href="">About Us</a></li>
+        <li><a href="/about">About Us</a></li>
       </ul>
     </nav>
   </header>
@@ -34,11 +36,11 @@
     <button  class="bg-white border border-white px-8 py-4 text-black rounded-3xl font-semibold hover:border-white hover:text-white hover:bg-transparent transition ease-in-out duration-500" onclick="openModal('modelConfirm')" >Book a consultation now!</button>
    </div>
    </div>
-  
+  <!-- Modal -->
    <div id="modelConfirm" class="fixed hidden z-50 inset-0 bg-gray-900 bg-opacity-60 overflow-y-auto w-ful h-full px-4 ">
-    <div class="relative top-40 mx-auto shadow-xl rounded-xl bg-white max-w-[800px] ">
+    <div class="relative top-40 mx-auto shadow-xl rounded-xl bg-white max-w-[600px] ">
 
-        <div class="flex justify-end p-2">
+        <div class="flex justify-end p-2"> 
             <button onclick="closeModal('modelConfirm')" type="button"
                 class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 ml-auto inline-flex items-center">
                 <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -81,16 +83,11 @@
 
     </div>
 </div>
+<!-- End of Modal -->
   </section>
 
 
-
-
-
-
-
-
-
+<!-- WORKS SECTION -->
   
   <section id="projects" class="bg-white pt-32 pb-32">
     
@@ -184,6 +181,10 @@
   
   </section>
   
+<!-- end of WOrks section -->
+
+<!-- why chooese us -->
+
   <section class="bg-gray-200 py-32">
     
     <p class="text-center text-5xl font-medium">WHY CHOOSE US</p>
@@ -235,7 +236,11 @@
   
     </div>
   </section>
-  
+  <!-- end of why choose us -->
+
+
+
+  <!-- clients -->
   <section class="container py-32 h-[100vh]" id="testimonials" >
   <p class="text-center text-5xl">WHAT OUR CLIENTS SAYS...</p>
   
@@ -395,13 +400,13 @@
   <div class="">
      <img src="https://static.wixstatic.com/media/be0975_48eeb4e6d34a4a62845d6f44c0715540~mv2.png/v1/fill/w_100,h_100,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/logo%203-04.png" alt="logo" class="w-24">
   <p class="text-lg font-medium py-6">AK5 INTERIOR DESIGN CO.</p>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum blanditiis, fugiat, reprehenderit quae quo voluptates eaque numquam reiciendis temporibus obcaecati ab? Aspernatur, vero. Facil</p>
+  <p class="pr-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum blanditiis, fugiat, reprehenderit quae quo voluptates eaque numquam reiciendis temporibus obcaecati ab? Aspernatur, vero. Facil</p>
   </div>
 
   <div class="">
     <p class="text-xl font-bold">Services</p>
     <div class="in-line py-4">
-      <ul class="font-medium text-gray-400 leading-7">
+      <ul class="font-medium leading-7">
         <li class="hover:text-gray-900 transition duration-300 ease-in-out"><a href="">Interior Fit-out</a></li>
         <li class="hover:text-gray-900 transition duration-300 ease-in-out"><a href="">Residential Project</a></li>
         <li class="hover:text-gray-900 transition duration-300 ease-in-out"><a href="">Commercial Project</a></li>
@@ -416,12 +421,12 @@
   <div class="">
     <p class="text-xl font-bold">Company</p>
     <div class="in-line py-4 ">
-      <ul class="font-medium text-gray-400 leading-7">
-        <li class="hover:text-gray-900 transition duration-300 ease-in-out"><a href="/">Home</a></li>
-        <li class="hover:text-gray-900 transition duration-300 ease-in-out" ><a href="/#projects">Services</a></li>
-        <li class="hover:text-gray-900 transition duration-300 ease-in-out"><a href="/#testimonials">Testimonials</a></li>
-        <li class="hover:text-gray-900 transition duration-300 ease-in-out"><a href="/#blog">Blogs</a></li>
-        <li class="hover:text-gray-900 transition duration-300 ease-in-out"><a href="">About us</a></li>
+      <ul class="font-medium  leading-7">
+        <li class="hover:font-medium transition duration-300 ease-in-out"><a href="/">Home</a></li>
+        <li class="hover:font-medium transition duration-300 ease-in-out" ><a href="/#projects">Services</a></li>
+        <li class="hover:font-medium transition duration-300 ease-in-out"><a href="/#testimonials">Testimonials</a></li>
+        <li class="hover:font-medium transition duration-300 ease-in-out"><a href="/#blog">Blogs</a></li>
+        <li class="hover:font-medium transition duration-300 ease-in-out"><a href="">About us</a></li>
        
         
       </ul>
@@ -429,8 +434,8 @@
   </div>
 
   <div class="">
-    <p class="text-xl font-bold">Social</p>
-    <div class="in-line py-4">
+    <p class="text-xl font-bold">Connect with us</p>
+    <div class="in-line py-4 pt-8">
       <ul class="flex gap-4 ">
         <li class="hover:-translate-y-2 transition duration-700 ease-in-out bg-gra"><a href="" class="">
          <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="35" height="35"  viewBox="0 0 48 48" fill="">
@@ -458,6 +463,32 @@
         
       </ul>
     </div>
+   
+   <div class=" grid gap-2">
+    <p class="flex gap-4"> <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="35" height="35" viewBox="0 0 256 256" xml:space="preserve">
+
+      <defs>
+      </defs>
+      <g style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;" transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)" >
+        <path d="M 45 90 c -1.415 0 -2.725 -0.748 -3.444 -1.966 l -4.385 -7.417 C 28.167 65.396 19.664 51.02 16.759 45.189 c -2.112 -4.331 -3.175 -8.955 -3.175 -13.773 C 13.584 14.093 27.677 0 45 0 c 17.323 0 31.416 14.093 31.416 31.416 c 0 4.815 -1.063 9.438 -3.157 13.741 c -0.025 0.052 -0.053 0.104 -0.08 0.155 c -2.961 5.909 -11.41 20.193 -20.353 35.309 l -4.382 7.413 C 47.725 89.252 46.415 90 45 90 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+        <path d="M 45 45.678 c -8.474 0 -15.369 -6.894 -15.369 -15.368 S 36.526 14.941 45 14.941 c 8.474 0 15.368 6.895 15.368 15.369 S 53.474 45.678 45 45.678 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+      </g>
+      </svg>
+      KM 43 McArthur Highway Brgy. BulihanMalolos, Philippines 3000</p>
+
+      <p class="flex gap-4 pt-2">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="30" height="30" viewBox="0 0 256 256" xml:space="preserve">
+
+          <defs>
+          </defs>
+          <g style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;" transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)" >
+            <path d="M 38.789 51.211 l 10.876 10.876 c 0.974 0.974 2.471 1.194 3.684 0.543 l 13.034 -6.997 c 0.964 -0.518 2.129 -0.493 3.07 0.066 l 19.017 11.285 c 1.357 0.805 1.903 2.489 1.268 3.933 c -1.625 3.698 -4.583 10.476 -5.758 13.473 c -0.247 0.631 -0.615 1.209 -1.127 1.652 c -12.674 10.986 -37.89 -2.4 -57.191 -21.701 C 6.358 45.039 -7.028 19.823 3.958 7.149 c 0.444 -0.512 1.022 -0.88 1.652 -1.127 c 2.996 -1.175 9.775 -4.133 13.473 -5.758 c 1.444 -0.635 3.128 -0.089 3.933 1.268 l 11.285 19.017 c 0.558 0.941 0.583 2.106 0.066 3.07 L 27.37 36.651 c -0.651 1.213 -0.431 2.71 0.543 3.684 C 27.913 40.335 38.789 51.211 38.789 51.211 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+          </g>
+          </svg>
+
+          09455145503 / 09323063511
+      </p>
+    </div> 
   </div>
   </div>  
   <p class="text-center py-4 text-gray-400">Copyright © 2024 | All rights reserved.</p>

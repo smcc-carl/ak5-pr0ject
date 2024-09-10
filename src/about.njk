@@ -1,0 +1,143 @@
+---
+    layout: base.njk
+    title: About Us
+---
+
+<section class="container py-32">
+    <div class="grid grid-cols-2 items-center">
+        <div>
+        <p class="text-5xl pb-10">ABOUT US</p>
+
+            <div class="leading-7 text-lg font-medium text-gray-500 pr-24">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem perferendis expedita cupiditate impedit ullam facilis sapiente laborum ea ex reprehenderit veritatis sint quaerat, soluta neque hic quos. Veritatis, qui neque.</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem perferendis expedita cupiditate impedit ullam facilis sapiente laborum ea ex reprehenderit veritatis sint quaerat, soluta neque hic quos. Veritatis, qui neque.</p>
+            </div>
+            <div id="modelConfirm" class="fixed hidden z-50 inset-0 bg-gray-900 bg-opacity-60 overflow-y-auto w-ful h-full px-4 ">
+                <div class="relative top-40 mx-auto shadow-xl rounded-xl bg-white max-w-[800px] ">
+            
+                    <div class="flex justify-end p-2">
+                        <button onclick="closeModal('modelConfirm')" type="button"
+                            class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 ml-auto inline-flex items-center">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                        </button>
+                    </div>
+            
+            
+                    <div class="grid p-10">
+                    
+                    <div class="p-6 pt-0">
+                      <p class=" font-semibold text-3xl">Book for a free consultation now!</p>
+                      <p class=" text- text-gray-500 py-8 leading-6 pr-12">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                      <form action="" class=" text-gray-500 grid gap-4" >
+                            <div class="grid">
+                            <label for="input">Full Name:</label>
+                            <input type="text" class="border border-gray-300 rounded-xl py-2 px-4">
+                            </div>
+                    
+                            <div class="grid">
+                            <label for="input">Contact No:</label>
+                            <input type="text" class="border border-gray-300 rounded-xl  py-2 px-4">
+                            </div>
+                    
+                    
+                            <div class="grid pb-8">
+                            <label for="input">Email:</label>
+                            <input type="text" class="border border-gray-300 rounded-xl  py-2 px-4">
+                            </div>
+                          <div>
+                             <a href="" class="bg-gray-800 px-8 py-4 border border-gray-800 rounded-full text-gray-200 left-">Register now!</a>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+            
+            
+                </div>
+            </div>
+            
+            <div class=" py-16 ">
+                <button href="#" class="bg-gray-900 px-8 py-4 text-white rounded-full justify-self-center border border-gray-900 hover:border hover:border-gray-900 hover:text-gray-900 hover:bg-transparent hover:font-semibold transition ease-in-out duration-500" onclick="openModal('modelConfirm')">Book a consultation now!</button>
+                
+            </div>
+            
+
+            
+
+        </div>
+        <img class="mx-auto" src="https://images.pexels.com/photos/3184419/pexels-photo-3184419.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+    </div>
+</section>
+
+<section class="bg-gray-300 py-32">
+<p class="text-center text-5xl ">MEET THE TEAM</p>
+<p class="text-center text-2xl py-4 ">BEHIND OUR MASTERPIECE</p>
+
+
+ 
+<div class="grid grid-cols-3 py-16 gap-16 container px-[10%]">
+  
+  <div>
+    <img class="rounded-3xl" src="https://images.pexels.com/photos/1270076/pexels-photo-1270076.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+    <p class="text-center pt-6 pb-4 text-3xl text-gray-600 font-semibold
+    ">John Doe</p>
+    <p class="text-center font-semibold text-gray-500">Master Craftsmen</p>
+    <p class="text-center font-semibold text-gray-500 text-sm">@johndoe</p>
+   
+    
+    
+  </div>
+  <div>
+    <img class="rounded-3xl" src="https://images.pexels.com/photos/2531553/pexels-photo-2531553.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+    <p class="text-center pt-6 pb-4 text-3xl text-gray-600 font-semibold
+    ">Micheal Doe</p>
+    <p class="text-center font-semibold text-gray-500">Graphics Designer</p> 
+        <p class="text-center font-semibold text-gray-500 text-sm">@m-doe</p>
+
+  </div>
+  <div>
+    <img class="rounded-3xl" src="https://images.pexels.com/photos/27219135/pexels-photo-27219135/free-photo-of-art.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+    <p class="text-center pt-6 pb-4 text-3xl text-gray-600 font-semibold
+    ">Jeff Doe</p>
+    <p class="text-center font-semibold text-gray-500">Creative Director</p>
+        <p class="text-center font-semibold text-gray-500 text-sm">@jeffdoe</p>
+
+  </div>
+  <div>
+    <img class="rounded-3xl" src="https://images.pexels.com/photos/14647303/pexels-photo-14647303.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+    <p class="text-center pt-6 pb-4 text-3xl text-gray-600 font-semibold
+    ">Jennifer Doe</p>
+    <p class="text-center font-semibold text-gray-500">Social Media Marketer</p>
+        <p class="text-center font-semibold text-gray-500 text-sm">@jendoe</p>
+
+  </div>
+  <div>
+    <img class="rounded-3xl" src="https://images.pexels.com/photos/28194109/pexels-photo-28194109/free-photo-of-potrait-7.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+    <p class="text-center pt-6 pb-4 text-3xl text-gray-600 font-semibold
+    ">Jane Doe</p>
+    <p class="text-center font-semibold text-gray-500">Accountant</p>
+        <p class="text-center font-semibold text-gray-500 text-sm">@janedoe</p>
+
+  </div>
+  <div>
+    <img class="rounded-3xl" src="https://images.pexels.com/photos/27688436/pexels-photo-27688436/free-photo-of-female-photographer.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+    <p class="text-center pt-6 pb-4 text-3xl text-gray-600 font-semibold
+    ">Jocel Doe</p>
+    <p class="text-center font-semibold text-gray-500">Master Craftsmen</p>
+        <p class="text-center font-semibold text-gray-500 text-sm">@joceldoe</p>
+
+  </div>
+  
+
+
+
+
+</div>
+
+
+</section>
+
